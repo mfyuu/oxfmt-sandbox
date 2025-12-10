@@ -1,0 +1,20 @@
+{
+  "name": "oxfmt-sandbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "lefthook install",
+    "fmt": "oxfmt"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.25.0",
+  "devDependencies": {
+    "lefthook": "^2.0.9",
+    "oxfmt": "^0.17.0",
+    "prettier": "^3.7.4",
+    "prettier-plugin-sql": "^0.19.2"
+  }
+}

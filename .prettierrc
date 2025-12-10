@@ -1,0 +1,5 @@
+{
+  "plugins": ["prettier-plugin-sql"],
+  "overrides":
+    [{ "files": "*.sql", "options": { "formatter": "sql-formatter", "language": "postgresql" } }],
+}
